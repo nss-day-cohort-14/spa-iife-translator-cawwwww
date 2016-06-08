@@ -4,20 +4,27 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Translator</title>
+	<link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="translator.css">
 </head>
 <body>
-	<h1>Merry Christmas, you filthy animal</h1>
+	<div class="header">
+		<h1>Merry Christmas, you filthy animal</h1>
+		<h4>(type this into the box...)</h4>
+	</div>
 
 	<textarea name="translateBox" class="translateBox"></textarea>
 
-	<select name="">
-		<option value="french">French</option>
-		<option value="spanish">Spanish</option>
-		<option value="german">German</option>
-	</select>
+	<div class="pickerButtonContainer">
+		<select class="languagePicker">
+			<option value"language" disabled selected>Choose a language</option>
+			<option value="french" id="french">French</option>
+			<option value="spanish" id="spanish">Spanish</option>
+			<option value="german" id="german">German</option>
+		</select>
 
-	<button>Translate</button>
+		<button>Translate</button>
+	</div>
 
 	<div id="transContainer">
 	</div>
