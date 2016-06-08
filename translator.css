@@ -1,0 +1,31 @@
+body {
+	font-family: 'Playfair Display', serif;
+	box-sizing: border-box;
+	margin: 0;
+}
+
+.header {
+	background: black;
+	color: white;
+	height: 180px;
+}
+
+h1 {
+	text-align: center;
+	margin: 20px;
+}
+
+h4 {
+	text-align: center;
+}
+
+.translateBox {
+	width: 300px;
+	height: 200px;
+	display: block;
+	margin: 80px auto;
+}
+
+.pickerButtonContainer {
+
+}
