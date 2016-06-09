@@ -2,7 +2,7 @@
 var translate = document.querySelector('button');
 var translateValue = translate.value
 var french = document.querySelector('#french');
-var language = document.querySelector('.languagepicker');
+var language = document.querySelector('.languagePicker');
 var transContainer = document.querySelector('#transContainer');
 
 translate.addEventListener('click', function(){
