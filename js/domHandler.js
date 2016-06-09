@@ -9,7 +9,6 @@ var frenchTranslation;
 translate.addEventListener('click', function(){
 	if (language.value === 'french'){
 		frenchTranslation = Translator.translateToFrench();
-		console.log("What is frenchTranslation", frenchTranslation);
 		frenchTranslation = frenchTranslation.join(' ');
 		transContainer.innerHTML = frenchTranslation;
 		grabInput();
@@ -23,7 +22,3 @@ translate.addEventListener('click', function(){
 
 
 
-// translate.addEventListener('click', function(){
-// 	var frenchTranslation = Translator.translateToFrench();
-// 	console.log(frenchTranslation)
-// })
