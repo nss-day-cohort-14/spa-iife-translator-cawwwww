@@ -1,7 +1,9 @@
-/// this will change. it is just so you can see that the logic works
+
 var translate = document.querySelector('button');
 var translateValue = translate.value
 var french = document.querySelector('#french');
+var spanish = document.querySelector('#spanish');
+var german = document.querySelector('#german');
 var language = document.querySelector('#languagePicker');
 var transContainer = document.querySelector('#transContainer');
 
@@ -11,6 +13,14 @@ translate.addEventListener('click', function(){
 		frenchTranslation = frenchTranslation.join(' ');
 		transContainer.innerHTML = frenchTranslation;
 	}
-})
-
-
+	else if (language.value === 'spanish'){
+		var spanishTranslation = Translator.translateToSpanish();
+		spanishTranslation = spanishTranslation.join(' ');
+		transContainer.innerHTML = spanishTranslation;
+	}
+	else {
+		var germanTranslation = Translator.translateToGerman();
+		germanTranslation = germanTranslation.join(' ');
+		transContainer.innerHTML = germanTranslation;
+	}
+});

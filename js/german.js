@@ -1,4 +1,4 @@
-var translator = (function (originalInput) {
+var Translator = (function (originalInput) {
 	// Private variable
 	var german = {
 		"merry": "frohe",
@@ -8,12 +8,12 @@ var translator = (function (originalInput) {
 		"animal": "das tier"
 	};
 
-	maker.translateToGerman = function() {
+	originalInput.translateToGerman = function() {
 		for ( i = 0; i < input.length; i++) {
 			input[i] = german[input[i]];	
 		};
-		return  input
+		return  input;
 	};
-	return translator;
+	return originalInput;
 
-})(originalInput);
+})(Translator);
