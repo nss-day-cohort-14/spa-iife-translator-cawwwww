@@ -1,4 +1,4 @@
-var translator = (function (originalInput)) {
+var translator = (function (originalInput) {
 	// Private variable
 	var german = {
 		"merry": "frohe",

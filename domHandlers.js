@@ -1,9 +1,9 @@
 
-var languagePicker = document.getElementById("languagePicker");
+// var languagePicker = document.getElementById("languagePicker");
 
-languagePicker.addEventListener("change", function(translate) {
-	selectedLanguage = event.target.value;
-});
+// languagePicker.addEventListener("change", function(translate) {
+// 	selectedLanguage = event.target.value;
+// });
 
 
 

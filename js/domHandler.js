@@ -4,12 +4,15 @@ var translateValue = translate.value
 var french = document.querySelector('#french');
 var language = document.querySelector('#languagePicker');
 var transContainer = document.querySelector('#transContainer');
+var frenchTranslation;
 
 translate.addEventListener('click', function(){
 	if (language.value === 'french'){
-		var frenchTranslation = Translator.translateToFrench();
+		frenchTranslation = Translator.translateToFrench();
+		console.log("What is frenchTranslation", frenchTranslation);
 		frenchTranslation = frenchTranslation.join(' ');
 		transContainer.innerHTML = frenchTranslation;
+		grabInput();
 		
 
 	}
