@@ -10,17 +10,7 @@ translate.addEventListener('click', function(){
 		var frenchTranslation = Translator.translateToFrench();
 		frenchTranslation = frenchTranslation.join(' ');
 		transContainer.innerHTML = frenchTranslation;
-		
-
 	}
 })
 
 
-
-
-
-
-// translate.addEventListener('click', function(){
-// 	var frenchTranslation = Translator.translateToFrench();
-// 	console.log(frenchTranslation)
-// })
