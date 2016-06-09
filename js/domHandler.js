@@ -13,19 +13,14 @@ translate.addEventListener('click', function(){
 		frenchTranslation = frenchTranslation.join(' ');
 		transContainer.innerHTML = frenchTranslation;
 	}
-
-
 	else if (language.value === 'spanish'){
 		var spanishTranslation = Translator.translateToSpanish();
 		spanishTranslation = spanishTranslation.join(' ');
 		transContainer.innerHTML = spanishTranslation;
 	}
-
-
-	else (language.value === 'german'){
+	else {
 		var germanTranslation = Translator.translateToGerman();
 		germanTranslation = germanTranslation.join(' ');
 		transContainer.innerHTML = germanTranslation;
 	}
 });
-
