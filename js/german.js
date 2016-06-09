@@ -16,4 +16,4 @@ var Translator = (function (originalInput) {
 	};
 	return originalInput;
 
-})(Translator);
+})(Translator || {});

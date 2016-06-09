@@ -2,14 +2,14 @@ body {
 	font-family: 'Playfair Display', serif;
 	box-sizing: border-box;
 	margin: 0;
-	background: #d42426;
+	/*background: #d42426;*/
 }
 
 .header {
 	background: #3C8D0D;
 	color: white;
 	height: 180px;
-	border-bottom: 5px solid white;
+	border-bottom: 6px solid white;
 }
 
 h1 {
@@ -22,11 +22,20 @@ h4 {
 	text-align: center;
 }
 
+.mainBackground {
+	background-image: url('Christmas-Background-5.jpg');
+	background-position: cover;
+	height: 650px;
+	text-align: center;
+}
+
 .translateBox {
 	width: 300px;
 	height: 200px;
-	display: block;
-	margin: 80px auto 20px;
+	display: inline-block;
+	margin: 60px 0 30px;
+	font-family: 'Playfair Display';
+	font-size: 2em;
 }
 
 .pickerButtonContainer {
@@ -39,6 +48,7 @@ h4 {
 	width: 300px;
 	height: 200px;
 	border: 1px dotted black;
-	margin: 20px auto;
+	margin: 35px auto 0;
 	background: white;
+	font-size: 2em;
 }
