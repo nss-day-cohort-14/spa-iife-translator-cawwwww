@@ -1,6 +1,6 @@
 
 var translate = document.querySelector('button');
-var translateValue = translate.value
+var translateValue = translate.value;
 var french = document.querySelector('#french');
 var spanish = document.querySelector('#spanish');
 var german = document.querySelector('#german');
@@ -12,15 +12,18 @@ translate.addEventListener('click', function(){
 		var frenchTranslation = Translator.translateToFrench();
 		frenchTranslation = frenchTranslation.join(' ');
 		transContainer.innerHTML = frenchTranslation;
+		grabInput();
 	}
 	else if (language.value === 'spanish'){
 		var spanishTranslation = Translator.translateToSpanish();
 		spanishTranslation = spanishTranslation.join(' ');
 		transContainer.innerHTML = spanishTranslation;
+		grabInput();
 	}
 	else {
 		var germanTranslation = Translator.translateToGerman();
 		germanTranslation = germanTranslation.join(' ');
 		transContainer.innerHTML = germanTranslation;
+		grabInput();
 	}
 });
