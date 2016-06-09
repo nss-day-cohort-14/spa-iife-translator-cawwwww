@@ -2,13 +2,14 @@ body {
 	font-family: 'Playfair Display', serif;
 	box-sizing: border-box;
 	margin: 0;
-	background: #ecf0f1;
+	background: #d42426;
 }
 
 .header {
-	background: black;
+	background: #3C8D0D;
 	color: white;
 	height: 180px;
+	border-bottom: 5px solid white;
 }
 
 h1 {

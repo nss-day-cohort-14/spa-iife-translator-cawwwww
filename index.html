@@ -13,22 +13,23 @@
 		<h4>(type this into the box...)</h4>
 	</div>
 
-	<textarea name="translateBox" class="translateBox" placeholder="Merry Christmas, you filthy animal"></textarea>
+	<div class="mainBaackground">
+		<textarea name="translateBox" class="translateBox" placeholder="Merry Christmas, you filthy animal"></textarea>
 
-	<div class="pickerButtonContainer">
-		<select id="languagePicker">
-			<option value"language" disabled selected>Choose a language</option>
-			<option value="french" id="french">French</option>
-			<option value="spanish" id="spanish">Spanish</option>
-			<option value="german" id="german">German</option>
-		</select>
+		<div class="pickerButtonContainer">
+			<select id="languagePicker">
+				<option value"language" disabled selected>Choose a language</option>
+				<option value="french" id="french">French</option>
+				<option value="spanish" id="spanish">Spanish</option>
+				<option value="german" id="german">German</option>
+			</select>
 
-		<button>Translate</button>
+			<button>Translate</button>
+		</div>
+
+		<div id="transContainer">
+		</div>
 	</div>
-
-	<div id="transContainer">
-	</div>
-
 	<script src="js/translator.js"></script>
 	<script src="js/french.js"></script>
 	<script src="js/german.js"></script>
