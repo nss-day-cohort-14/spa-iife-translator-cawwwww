@@ -2,6 +2,7 @@ body {
 	font-family: 'Playfair Display', serif;
 	box-sizing: border-box;
 	margin: 0;
+	background: #ecf0f1;
 }
 
 .header {
@@ -12,7 +13,8 @@ body {
 
 h1 {
 	text-align: center;
-	margin: 20px;
+	margin: 0;
+	padding-top: 40px;
 }
 
 h4 {
@@ -23,9 +25,19 @@ h4 {
 	width: 300px;
 	height: 200px;
 	display: block;
-	margin: 80px auto;
+	margin: 80px auto 20px;
 }
 
 .pickerButtonContainer {
+	display: block;
+	width: 200px;
+	margin: 0 auto;
+}
 
+#transContainer {
+	width: 300px;
+	height: 200px;
+	border: 1px dotted black;
+	margin: 20px auto;
+	background: white;
 }
