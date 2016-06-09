@@ -8,6 +8,6 @@ var Translator = (function(originalInput){
 		return  input
 	};
 	return originalInput;
-})(Translator);
+})(Translator || {});
 
 
